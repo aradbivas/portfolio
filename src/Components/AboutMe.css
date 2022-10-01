@@ -1,0 +1,8 @@
+div.about-me{
+    display: flex;
+    flex-direction: column;
+}
+div.astro-img{
+    width: 50%;
+    height: 10%;
+}
