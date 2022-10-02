@@ -1,10 +1,12 @@
 import React from 'react'
+import wayup from './images/wayup.gif'
+import './Home.css'
 function  Home(){
     return (
         <div className='home'>
             <div className='rocket-img'>
 
-                <img className='rocket' src ='https://images.squarespace-cdn.com/content/v1/5d2f833c1101bb00018462d4/1569906114063-R498YD3TA4JFUDUCE140/wayup-gif.gif'/>
+                <img className='rocket' src ={wayup} alt={'wayup'}/>
             </div>
             <div className='home-right'>
                 <div className='fade-in-right'>

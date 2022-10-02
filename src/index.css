@@ -10,63 +10,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h1.name{
-  margin: 0;
-  color: #3949AB;
-}
-h1.about-me
-{
-  margin: 0;
-  color: #3949AB;
-}
-h3.desc
-{
-  color:#FFA200;
-  margin-left: 10%;
-}
+
+
 
 img{
   width: 75%;
-}
-
-/*home*/
-img.rocket{
-  width: 75%;
-}
-div.home {
-  display: flex;
-  flex-direction: row;
-}
-div.home-right
-{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  justify-content: center;
-  /*align-items: center;*/
-}
-div.fade-in-right
-{
-  animation: fadeInRight 1s ease-in-out;
-
-}
-div.fade-in-left{
-  animation: fadeInLeft 1s ease-in-out;
-}
-div.rocket-img{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin-top: 7%;
-  animation: fadeIn 2s;
-
 }
 @keyframes fadeInRight {
   from {
     opacity: 0;
     transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp{
+  from {
+    opacity: 0;
+    transform: translateY(300px);
   }
   to {
     opacity: 1;
@@ -89,47 +51,11 @@ div.rocket-img{
     opacity: 1;
   }
 }
+/*home*/
+
 
 
 /*About me*/
-div.about-me{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 
-}
-img.img-ast{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  border-radius: 40%;
+/*projects*/
 
-}
-div.astro-container{
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 3%;
-  width: 40%;
-  animation: fadeIn 3s;
-
-
-}
-div.para-container{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 70%;
-  margin-top: 7%;
-  animation: fadeInRight 2s;
-}
-p.para{
-  width: 50%;
-
-}
-img.links{
-  width: 3%;
-  padding-right: 2px;
-  margin-left: 5px;
-
-}

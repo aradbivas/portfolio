@@ -1,4 +1,42 @@
-.img{
-    width: 2rem;
-    height: 10rem;
+img.rocket{
+    width: 75%;
+}
+div.home {
+    display: flex;
+    flex-direction: row;
+}
+div.home-right
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    /*align-items: center;*/
+}
+div.fade-in-right
+{
+    animation: fadeInRight 1s ease-in-out;
+
+}
+div.fade-in-left{
+    animation: fadeInLeft 1s ease-in-out;
+}
+div.rocket-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 7%;
+    animation: fadeIn 2s;
+
+}
+h3.desc
+{
+    color:#FFA200;
+    margin-left: 10%;
+}
+h1.name{
+    margin: 0;
+    color: #3949AB;
 }
