@@ -6,7 +6,7 @@ function  Home(){
         <div className='home'>
             <div className='rocket-img'>
 
-<<<<<<< HEAD
+
                 <img className='rocket' src ={wayup} alt={'wayup'}/>
 
             </div>
