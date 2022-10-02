@@ -1,11 +1,11 @@
 import React from 'react'
 import './Projects.css'
-import galaxy from './images/galaxy.jpg'
-import Card from './images/Card'
-import music from './images/music.jpg'
-import calc from './images/calc.jpg'
-import garage from './images/garage.jpg'
-import gamers from './images/gamers.jpg'
+import galaxy from './galaxy.jpg'
+import Card from './Card'
+import music from './music.jpg'
+import calc from './calc.jpg'
+import garage from './garage.jpg'
+import gamers from './gamers.jpg'
 const Projects = () => {
     return (
         <div className='projects'>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './AboutMe.css'
-import './images/astrunaut.png'
-import astro from './images/astrunaut.png'
-import github from './images/github.png'
-import linkedin from './images/linkedin.png'
+import './astrunaut.png'
+import astro from './astrunaut.png'
+import github from './github.png'
+import linkedin from './linkedin.png'
 const AboutMe = () => {
     return    (
         <div className='about-me'>

@@ -12,8 +12,6 @@ img.galaxy{
     border-radius: 8px;
     margin-left: 10%;
     animation: fadeInUp 2s;
-
-
 }
 div.right-container-projects
 {
@@ -23,14 +21,6 @@ div.right-container-projects
     margin-right: 10%;
     margin-top: 9%;
 }
-
-/*Card*/
-/*.cards {*/
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*  align-items: flex-start;*/
-/*  justify-content: center;*/
-/*}*/
 
 .card {
     display: flex;

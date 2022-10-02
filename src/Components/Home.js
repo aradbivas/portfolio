@@ -1,5 +1,5 @@
 import React from 'react'
-import wayup from './images/wayup.gif'
+import wayup from './wayup.gif'
 import './Home.css'
 function  Home(){
     return (
