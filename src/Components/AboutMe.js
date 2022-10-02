@@ -8,7 +8,7 @@ const AboutMe = () => {
     return    (
         <div className='about-me'>
                <div className='astro-container'>
-                   <img className='img-ast'src={astro} alt='img'/>
+                   <img className='img-ast'src={astro} alt=''/>
                </div>
                 <div className='para-container'>
                     <h1 className='about-me'>About me!</h1>

@@ -6,7 +6,9 @@ function  Home(){
         <div className='home'>
             <div className='rocket-img'>
 
+<<<<<<< HEAD
                 <img className='rocket' src ={wayup} alt={'wayup'}/>
+
             </div>
             <div className='home-right'>
                 <div className='fade-in-right'>
