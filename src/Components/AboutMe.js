@@ -1,14 +1,14 @@
 import React from 'react'
 import './AboutMe.css'
-import './astrunaut.png'
-import astro from './astrunaut.png'
-import github from './github.png'
-import linkedin from './linkedin.png'
+import './images/astrunaut.png'
+import astro from './images/astrunaut.png'
+import github from './images/github.png'
+import linkedin from './images/linkedin.png'
 const AboutMe = () => {
     return    (
         <div className='about-me'>
                <div className='astro-container'>
-                   <img className='img-ast'src={astro} alt=''/>
+                   <img className='img-ast'src={astro} alt='astro'/>
                </div>
                 <div className='para-container'>
                     <h1 className='about-me'>About me!</h1>
@@ -41,8 +41,8 @@ const AboutMe = () => {
                     <br/>
                     <br/>
                     <div className='link-container'>
-                        <a href='https://github.com/aradbivas'><img src={github} className='links'/></a>
-                        <a href='https://www.linkedin.com/in/arad-bivas/'><img src={linkedin} className='links'/></a>
+                        <a href='https://github.com/aradbivas'><img src={github} className='links' alt='github'/></a>
+                        <a href='https://www.linkedin.com/in/arad-bivas/'><img src={linkedin} className='links' alt='linkedin'/></a>
                     </div>
 
                 </div>
