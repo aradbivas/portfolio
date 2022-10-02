@@ -7,7 +7,7 @@ function  Home(){
             <div className='rocket-img'>
 
 
-                <img className='rocket' src ={wayup} alt={'wayup'}/>
+                <img className='rocket' src ={wayup} alt='wayup'/>
 
             </div>
             <div className='home-right'>
