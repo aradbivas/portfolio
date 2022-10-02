@@ -11,7 +11,7 @@ const MainNavigation = props => {
 
             <MainHeader>
                 <div className="main-navigation__title">
-                    <Link to="/"><img src='https://static.vecteezy.com/system/resources/previews/002/084/153/large_2x/cute-astronaut-character-super-hero-cartoon-icon-illustration-free-vector.jpg'/></Link>
+                    <Link to="/"><img alt='' src='https://static.vecteezy.com/system/resources/previews/002/084/153/large_2x/cute-astronaut-character-super-hero-cartoon-icon-illustration-free-vector.jpg'/></Link>
                 </div>
                 <nav className="main-navigation__header-nav">
                     <NavLinks/>
