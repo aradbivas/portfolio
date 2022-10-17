@@ -5,7 +5,7 @@ import NavLinks from './NavLinks';
 import './MainNavigation.css';
 import SideDrawer from "./SideDrawer";
 import Backdrop from "./Backdrop";
-
+import astro from '../images/astronaute-icon.jpg'
 const MainNavigation = props => {
     const [drawerOpen, setDrawerOpen] = useState(false);
     const openDrawer = () =>
@@ -31,7 +31,7 @@ const MainNavigation = props => {
                     <span />
                 </button>
                 <div className="main-navigation__title">
-                    <Link to="/"><img alt='' src='https://static.vecteezy.com/system/resources/previews/002/084/153/large_2x/cute-astronaut-character-super-hero-cartoon-icon-illustration-free-vector.jpg'/></Link>
+                    <Link to="/"><img alt='' src={astro}/></Link>
                 </div>
                 <nav className="main-navigation__header-nav">
                     <NavLinks/>
