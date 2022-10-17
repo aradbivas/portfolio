@@ -41,8 +41,8 @@ const AboutMe = () => {
                     <br/>
                     <br/>
                     <div className='link-container'>
-                        <a href='https://github.com/aradbivas'><img src={github} className='links' alt='github'/></a>
-                        <a href='https://www.linkedin.com/in/arad-bivas/'><img src={linkedin} className='links' alt='linkedin'/></a>
+                        <a href='https://github.com/aradbivas' target='_blank' rel="noreferrer"><img src={github} className='links' alt='github'/></a>
+                        <a href='https://www.linkedin.com/in/arad-bivas/' target='_blank' rel="noreferrer"><img src={linkedin} className='links' alt='linkedin'/></a>
                     </div>
 
                 </div>

@@ -54,5 +54,10 @@ h1.about-me
     p.para{
         width: 100%;
     }
+    div.link-container img{
+        width: 20%;
+        margin: 10%;
+
+    }
 
 }
