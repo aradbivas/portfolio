@@ -26,7 +26,7 @@ div.rocket-img{
     justify-content: center;
     align-items: center;
     width: 70%;
-    margin-top: 7%;
+    margin-top: 2%;
     animation: fadeIn 2s;
 
 }
@@ -38,4 +38,20 @@ h3.desc
 h1.name{
     margin: 0;
     color: #3949AB;
+}
+@media (max-width: 768px) {
+    div.home{
+        flex-direction: column;
+
+    }
+
+    div.rocket-img {
+        width: 100%;
+    }
+    div.home-right
+    {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 100%;
+    }
 }
