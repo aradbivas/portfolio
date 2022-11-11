@@ -6,6 +6,8 @@ import music from './images/music.jpg'
 import calc from './images/calc.jpg'
 import garage from './images/garage.jpg'
 import gamers from './images/gamers.jpg'
+import bulleyes from './images/bulleyes.jpg'
+import menu from './images/menu.jpg'
 const Projects = () => {
     return (
         <div className='projects'>
@@ -30,7 +32,7 @@ const Projects = () => {
                 />
                 <Card img={garage}
                       title='Garage Management System'
-                      paragraph="manages different type of vehicles in the garage, from changing repair status to handling payments. "
+                      paragraph="Manages different type of vehicles in the garage, from changing repair status to handling payments. "
                       stack='Build using C# and .Net'
                       github='https://github.com/aradbivas/Garage-Mangment-System'
 
@@ -40,9 +42,23 @@ const Projects = () => {
                       paragraph='Choose your favorites games to play, join a custom game chat and find you gaming body!'
                       stack='Developed using Java Firebase in Android Studio'
                       github='https://github.com/aradbivas/Gamers-Social-Android-App'
+                      live = "https://user-images.githubusercontent.com/41302200/201333369-1c7b1f74-d47b-4c0c-bed6-6b88fd7d90d4.mp4"
 
                 />
+                <Card img={bulleyes}
+                      title='Bullseye Game'
+                      paragraph='The Game chooses a sequence of four colors in certain order, to win you need choose the right colors and place them in the right space.'
+                      stack='Developed using C# .NET framework and WinForms'
+                      github='https://github.com/aradbivas/BullEyes-Game'
+                      live = "https://user-images.githubusercontent.com/41302200/201338646-e8d2368d-e2ee-433f-86d5-496a9184f26d.mp4"
 
+                />
+                <Card img={menu}
+                      title='Menus Creator'
+                      paragraph='Menu creator component to help developers creat their own custom menus'
+                      stack='Developed using C# and .NET framework.'
+                      github='https://github.com/aradbivas/Menus-Creator'
+                />
 
             </div>
         </div>
