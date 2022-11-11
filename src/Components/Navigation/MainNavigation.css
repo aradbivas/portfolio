@@ -30,6 +30,10 @@
     margin-left: 60%;
 
 }
+img{
+    width: 75%;
+}
+
 
 .main-navigation__title a {
     text-decoration: none;

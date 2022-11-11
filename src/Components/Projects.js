@@ -8,6 +8,7 @@ import garage from './images/garage.jpg'
 import gamers from './images/gamers.jpg'
 import bulleyes from './images/bulleyes.jpg'
 import menu from './images/menu.jpg'
+import server from './images/server.jpg'
 const Projects = () => {
     return (
         <div className='projects'>
@@ -59,7 +60,12 @@ const Projects = () => {
                       stack='Developed using C# and .NET framework.'
                       github='https://github.com/aradbivas/Menus-Creator'
                 />
-
+                <Card img={server}
+                      title='TCP Server'
+                      paragraph="Java TCP server, creates matrices and weighted matrices, and solve problems using graph's algorithms"
+                      stack='Developed in Java, using Threads and WebSockets.'
+                      github='https://github.com/aradbivas/java-TCPserver-project'
+                />
             </div>
         </div>
     )

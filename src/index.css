@@ -11,9 +11,6 @@ code {
     monospace;
 }
 
-img{
-  width: 75%;
-}
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -49,4 +46,3 @@ img{
     opacity: 1;
   }
 }
-
