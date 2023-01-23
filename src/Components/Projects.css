@@ -24,8 +24,8 @@ div.right-container-projects
     margin-top: 2%;
     max-height: 600px;
     overflow-y: scroll;
-    /*-ms-overflow-style: none;  !* Internet Explorer 10+ *!*/
-    /*scrollbar-width: none;  !* Firefox *!*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
     animation: fadeInUp 2s;
 
     background: #F5F5F5;
@@ -123,6 +123,11 @@ div.right-container-projects
         flex-direction: column;
     }
     div.card{
+        width: 100%;
+    }
+    div.right-container-projects
+    {
+        overflow-y: unset;
         width: 100%;
     }
 

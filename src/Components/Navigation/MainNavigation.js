@@ -26,7 +26,7 @@ const MainNavigation = props => {
             </SideDrawer>
             <MainHeader>
                 <button onClick={openDrawer} className="main-navigation__menu-btn">
-                    <span />
+                    <span className='span-back-drawer' />
                     <span />
                     <span />
                 </button>

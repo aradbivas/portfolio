@@ -8,13 +8,15 @@
     justify-content: space-around;
     margin-right: 2rem;
     cursor: pointer;
+
 }
 
 .main-navigation__menu-btn span {
     display: block;
     width: 3rem;
     height: 3px;
-    background: #000000;
+    background: #BE2A70;
+
 }
 .nav-button
 {
@@ -26,8 +28,8 @@
     cursor: pointer;
 }
 .main-navigation__title {
-    width: 9%;
-    margin-left: 80%;
+    width: 10%;
+    margin-left: 65%;
 
 }
 img{
@@ -47,7 +49,6 @@ img{
 .main-navigation__drawer-nav {
     height: 50%;
 }
-
 
 @media (min-width: 768px) {
     .main-navigation__menu-btn {
