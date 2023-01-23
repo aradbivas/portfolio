@@ -9,6 +9,8 @@ import gamers from './images/gamers.jpg'
 import bulleyes from './images/bulleyes.jpg'
 import menu from './images/menu.jpg'
 import server from './images/server.jpg'
+import rating from './images/rating.jpg'
+
 const Projects = () => {
     return (
         <div className='projects'>
@@ -16,6 +18,14 @@ const Projects = () => {
                 <img className='galaxy' src={galaxy} alt='galaxy'/>
             </div>
             <div className='right-container-projects'>
+                <Card img={calc}
+                      title='Costs Manager'
+                      paragraph='Control you own expansion with this app, get a detailed report by month and year.'
+                      stack='Build with Node.js, Express, React and  Mongodb.'
+                      github='https://github.com/aradbivas/Cost-Manager'
+                      live = "https://costs-manager.netlify.app/"
+
+                />
                     <Card img={music}
                           title='Music RESTful API'
                           paragraph='Create your own playlist with this Restful API.'
@@ -23,14 +33,7 @@ const Projects = () => {
                           github='https://github.com/aradbivas/Music-Restfull-Api'
 
                     />
-                <Card img={calc}
-                      title='Costs Manager'
-                      paragraph='Control you own expansion with this app, get a detailed report by month and year.'
-                      stack='Build with Node.js React Mongodb and deployed on AWS.'
-                      github='https://github.com/aradbivas/Cost-Manager'
-                      live = 'http://34.203.202.32/'
 
-                />
                 <Card img={garage}
                       title='Garage Management System'
                       paragraph="Manages different type of vehicles in the garage, from changing repair status to handling payments. "
@@ -65,6 +68,12 @@ const Projects = () => {
                       paragraph="Java TCP server, creates matrices and weighted matrices, and solve problems using graph's algorithms"
                       stack='Developed in Java, using Threads and WebSockets.'
                       github='https://github.com/aradbivas/java-TCPserver-project'
+                />
+                <Card img={rating}
+                      title="Game's Rating"
+                      paragraph="Data science project, using to get information about games and what affects their overall rating."
+                      stack='Developed using Python, Web crawling using Selenium and BeautifulSoup, Pandas and Numpy.'
+                      github='https://github.com/aradbivas/Data-Science-Games-Rating'
                 />
             </div>
         </div>
