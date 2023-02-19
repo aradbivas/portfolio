@@ -10,7 +10,7 @@ import bulleyes from './images/bulleyes.jpg'
 import menu from './images/menu.jpg'
 import server from './images/server.jpg'
 import rating from './images/rating.jpg'
-
+import botdrop from './images/botdrop.jpg'
 const Projects = () => {
     return (
         <div className='projects'>
@@ -24,6 +24,13 @@ const Projects = () => {
                       stack='Build with Node.js, Express, React and  Mongodb.'
                       github='https://github.com/aradbivas/Cost-Manager'
                       live = "https://costs-manager.netlify.app/"
+
+                />
+                <Card img={botdrop}
+                      title='Amzon Price Drop Bot'
+                      paragraph='Track your favorit items on amzon using this telegram bot and get alert when the price drops!'
+                      stack='Designed using a microservice architecture, using java spring, Eureka Server, feign client, RabbitMQ and Docker'
+                      github='https://github.com/aradbivas/Amazon-Price-Drop-Bot'
 
                 />
                     <Card img={music}
