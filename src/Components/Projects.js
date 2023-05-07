@@ -31,7 +31,7 @@ const Projects = () => {
                       paragraph='Track your favorit items on amzon using this telegram bot and get alert when the price drops!'
                       stack='Designed using a microservice architecture, using java spring, Eureka Server, feign client, RabbitMQ and Docker'
                       github='https://github.com/aradbivas/Amazon-Price-Drop-Bot'
-                      live = "t.me/amzonPriceDropBot"
+                      live = "https://t.me/amzonpricedropbot"
 
 
                 />
